@@ -12,9 +12,10 @@ if (A[p] < B[q])
 C[k++] = A[p++];
 c++;
                 }
-            else {
+  else {
 C[k++] = B[q++];
- c++;               }
+ c++;              
+        }
 }
 while ( p < M) {
          C[k++] = A[p++];
@@ -39,4 +40,4 @@ int main()
     for(i=0;i<=M+N-1;i++)
         cout << C[i] << " ";
     cout << endl << X;
-return 0;}
+}
