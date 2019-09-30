@@ -9,7 +9,8 @@ int main(){
 	}
 	cin>>x;
 	switch(x){
-		case 1: {
+		case 1:
+			{
 			cin>>t;
 			cin>>r;
 			for(int i=n-1;i>=r;i--)
@@ -18,7 +19,8 @@ int main(){
 			n++;
 			break;
 		}				
-		case 2:{
+		case 2:
+			{
 			cin>>t;
 			for(i=0;i<n;i++){
 				if(a[i]==t){
@@ -35,7 +37,8 @@ int main(){
 				n--;
 			break;
 		}
-		case 3:{
+		case 3:
+			{
 			cin>>t;
 			for(i=0;i<n;i++){
 				if(a[i]==t){
@@ -46,7 +49,8 @@ int main(){
 			cout<<"The position is "<<c;
 			break;
 		}
-		case 4:{
+		case 4:
+			{
 			for(i=0;i<n;i++){
 				cout<<a[i]<<endl;
 			}
